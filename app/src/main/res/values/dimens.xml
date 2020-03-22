@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_btn_size">24dp</dimen>
+    <dimen name="header_size">180dp</dimen>
+    <dimen name="card_view_border">0dp</dimen>
+    <dimen name="breadcrumb_height">30dp</dimen>
+    <dimen name="sp_date">15sp</dimen>
+    <dimen name="sp_date_today">13sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="prio1_icon">50dp</dimen>
+</resources>

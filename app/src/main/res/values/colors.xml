@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f576d</color>
+    <color name="colorAccent">#f18d5d</color>
+    <color name="colorPrimaryDark">#9B4808</color>
+    <color name="colorPrimaryLight">#FFBF86</color>
+    <color name="colorDisabled">#4D4D4D</color>
+
+    <color name="colorBackground">#c6e2e6</color>
+    <color name="colorAvailable">#f4eba9</color>
+    <color name="colorEmpty">#c6e2e6</color>
+
+
+    <color name="prio1TextColor">#FFFFFF</color>
+    <color name="prio2TextColor">#FFFFFF</color>
+    <color name="prio3TextColor">#FFFFFF</color>
+    <color name="categoryColor0">#ff5352</color>
+    <color name="categoryColor1">#ff5252</color>
+    <color name="categoryColor2">#ff6154</color>
+    <color name="categoryColor3">#ff7256</color>
+    <color name="categoryColor4">#ff7b58</color>
+    <color name="categoryColor5">#ff8459</color>
+    <color name="categoryColor6">#ff925b</color>
+    <color name="categoryColor7">#ffa75e</color>
+    <color name="categoryColor8">#ffac5f</color>
+    <color name="categoryColor9">#ffb460</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

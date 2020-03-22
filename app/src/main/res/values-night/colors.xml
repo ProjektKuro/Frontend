@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff5352</color>
+    <color name="colorAccent">#ffb460</color>
+    <color name="colorPrimaryDark">#003c8f</color>
+    <color name="colorPrimaryLight">#5e92f3</color>
+
+    <color name="colorDisabled">#8F8F8F</color>
+
+    <color name="colorBackground">#f4eba9</color>
+
+
+    <color name="prio1TextColor">#ffffff</color>
+    <color name="prio2TextColor">#BEBBBB</color>
+    <color name="prio3TextColor">#b0bcc4</color>
+    <color name="transparent">#00000000</color>
+</resources>

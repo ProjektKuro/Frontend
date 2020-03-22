@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/shop_card"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginStart="8dp"
+  android:layout_marginTop="8dp"
+  android:layout_marginEnd="8dp"
+  android:clickable="true"
+  android:focusable="true"
+  app:cardCornerRadius="6dp">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.github.florent37.expansionpanel.ExpansionHeader
+      android:id="@+id/shop_expansion_header"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:expansion_layout="@id/shop_expansion_layout"
+      app:expansion_toggleOnClick="true">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+          android:layout_width="@dimen/prio1_icon"
+          android:layout_height="@dimen/prio1_icon"
+          android:layout_gravity="center_horizontal"
+          android:src="@drawable/ic_markt" />
+
+        <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginStart="10dp"
+          android:orientation="vertical">
+
+          <TextView
+            android:id="@+id/item_shop_name"
+            style="@style/Prio1Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+          <TextView
+            android:id="@+id/item_shop_adress"
+            style="@style/Prio3Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+      </LinearLayout>
+
+    </com.github.florent37.expansionpanel.ExpansionHeader>
+
+    <com.github.florent37.expansionpanel.ExpansionLayout
+      android:id="@+id/shop_expansion_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:expansion_expanded="false">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/shop_expansion_recycler"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+        <Button
+          android:id="@+id/shop_expansion_button"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="OK" />
+      </LinearLayout>
+
+    </com.github.florent37.expansionpanel.ExpansionLayout>
+
+  </LinearLayout>
+
+</androidx.cardview.widget.CardView>
